@@ -1,6 +1,6 @@
 # README.md
 
-        ## Description
+        # Description
         This application allows a user to input from the terminal to generate a README.md
       
   
