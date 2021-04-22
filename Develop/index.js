@@ -7,56 +7,49 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [
   {
     type: "input",
-    message: "Title: Please enter the title of this project?",
+    message: "What is the title of this project?",
     name: "projectTitle",
   },
   {
     type: "input",
-    message: "Description: Please enter a description of this project",
+    message: "What is the description of  this project?",
     name: "description",
   },
   {
     type: "input",
-    message:
-      "Installation Instructions: Please include installation instructions",
-    name: "installInstructions",
+    message: "How to install this project?",
+    name: "installation",
   },
   {
     type: "input",
-    message:
-      "Usage Information: Please add usage information about this project here.",
+    message: "How is this project used?",
     name: "usage",
   },
   {
-    type: "input",
-    message: "Contribution Guidelines: Please add contribution Guidelines here",
-    name: "contribution",
-  },
-  {
-    type: "input",
-    message: "Test Instructions: Please add Test Instructions here.",
-    name: "testInstructions",
-  },
-  {
     type: "checkbox",
-    message: "Test Instructions: Please choose a license for this project",
+    message: "What license does this project use? (ex, MIT, Apache)",
     name: "license",
-    choices: [
-      "Apache",
-      "GNU",
-      "MIT",
-      "Boost",
-      "Eclipse",
-    ],
+    choices: ["Apache", "GNU", "MIT", "Boost", "Eclipse", "None"],
   },
   {
     type: "input",
-    message: "What is your GitHub user name",
+    message: "How can you contribute?",
+    name: "contributing",
+  },
+  {
+    type: "input",
+    message: "What are the test instructions for this project?",
+    name: "tests",
+  },
+
+  {
+    type: "input",
+    message: "What is your GitHub user name?",
     name: "githubUsername",
   },
   {
     type: "input",
-    message: "What is your email address",
+    message: "What is your email address?",
     name: "email",
   },
 ];
