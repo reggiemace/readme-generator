@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # README.md Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -45,41 +44,3 @@ For additional questions regarding this project, feel free to contact me at:
 reginaldmace36@gmail.com
 
 ### [Return to the Table of Contents](#table-of-contents)
-=======
-# README.md
-
-        # Description
-        This application allows a user to input from the terminal to generate a README.md
-      
-  
-        ## Table of Contents
-         * [Installation](#installation)
-         * [Usage](#usage)
-         * [Contribution](#contribution)
-         * [Test](#testInstructions)
-         * [License](#license)
-         * [GitHub username](#githubUserName)
-         * [Contact Me](#email)
-         ---
-  
-        ## Installation Instructions:
-        Must require NPM inquirer, Node File Share and generateMarkdown
-  
-        ## Usage:
-        same as above
-  
-        ## Contributions:
-        Starter Code proved by Trrilogy
-  
-        ## Test Instructions:
-        None
-  
-         ## License:
-         MIT
-  
-        ## Questions
-          Please send any questions about this application to me at:
-           [GitHub username](https://github.com/reggiemace),
-  
-           For additional questions you can email me at: reginaldmace36@gmail.com
->>>>>>> 3e3243117b5b8e53d273183e0fbd55fbc940dcff
